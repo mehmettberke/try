@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  padding: 15px 30px;
+  background-color: #ff6b6b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.german-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.left-header {
+  display: flex;
+  gap: 20px;
+}
+
+.header-title {
+  color: black;
+  font-size: 2rem;
+}
+
+.right-header {
+  display: flex;
+  gap: 20px;
+}
+.menu:link,
+.menu:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  font-weight: 700;
+  transition: all 0.4s;
+}
+
+.menu:hover,
+.menu:active {
+  color: #adb5bd;
+}
+
+.wörter-form {
+  display: flex;
+  gap: 1rem;
+}
+
+.wörter-form input {
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+.wörter-container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tr-bedeutung {
+  text-align: center;
+}
+
+.artikel,
+.plural {
+  width: 50px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.überprufen {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #fa5252ed;
+  color: #fff;
+  font-weight: 600;
+  transition: all 0.4s;
+  border: none;
+}
+
+.überprufen:hover {
+  background-color: #ff8787;
+}
+
+.correct {
+  background-color: green;
+  color: #fff;
+}
+
+.false {
+  color: #fff;
+  background-color: red;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.progress {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn-correct {
+  padding: 5px 10px;
+  border-radius: 30px;
+  background-color: blue;
+  color: #fff;
+}
+
+.form-button-container {
+  display: flex;
+  gap: 10px;
+}
+.hidden {
+  visibility: hidden;
+}
+
+form {
+  margin-left: 35px;
+}
